@@ -20,9 +20,7 @@
 - 📜 JavaScript file extraction
 - 🧹 Clean, deduplicated outputs ready for further exploitation
 
----
-
-## ✨ Features
+## Features:
 
 - **12‑step pipeline** – from domain to full report in a single command
 - **Auto‑dependency install** – missing tools are fetched and installed on the fly
@@ -30,9 +28,7 @@
 - **Progress bar** – live step completion shown during the run
 - **Timestamped reports** – organized under `maxmap_reports/domain_timestamp/`
 
----
-
-## 🛠️ Requirements
+**Requirements**
 
 The script will automatically install any missing tools (requires `sudo`). It sets up:
 - `subfinder`, `httpx`, `naabu`, `gau`, `anew` (via Go)
@@ -42,12 +38,33 @@ The script will automatically install any missing tools (requires `sudo`). It se
 
 > Tested on: Ubuntu 22.04 / Kali Linux 2024+
 
----
+**OUTPUT STRUCTURE:**
+maxmap_reports/<domain>_<timestamp>/
+├── all_subdomains.txt
+├── crt_info.json
+├── crt_raw.json
+├── crt_subdomains.txt
+├── subdomains.txt
+├── subdomains_alive_raw.txt
+├── subdomains_alive_hosts.txt
+├── subdomains_alive_urls.txt
+├── naabu_raw.txt
+├── naabu_ports.txt
+├── nmap_full.txt
+├── directory.txt
+├── param.txt
+├── filterparam.txt
+├── jsfiles.txt
+├── jsfiles_uro.txt
+└── https/
+    ├── httpx_results.txt
+    └── 200_ok.txt
 
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/your-username/MAXMAP.git
+git clone https://github.com/IssanPy/MAXMAP.git
 cd MAXMAP
 chmod +x maxmap.sh
 ./maxmap.sh example.com
+
