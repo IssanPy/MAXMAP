@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="maxap.png" width="200" alt="MAXMAP Logo">
+  <img src="maxmap.png" width="200" alt="MAXMAP Logo">
 </p>
 
 **MAXMAP** is a one‑command reconnaissance framework that automates:
