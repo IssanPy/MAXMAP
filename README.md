@@ -83,6 +83,40 @@ Structured Recon Reports
 
 ---
 
+# 📸 Screenshots
+
+## 🔥 Framework Banner
+
+<p align="center">
+  <img src="ss1.png" width="1000">
+</p>
+
+---
+
+## 🌐 Reconnaissance Execution
+
+<p align="center">
+  <img src="ss2.png" width="1000">
+</p>
+
+---
+
+## 📊 Live Enumeration & Scanning
+
+<p align="center">
+  <img src="ss3.png" width="1000">
+</p>
+
+---
+
+## ⚡ Final Recon Results
+
+<p align="center">
+  <img src="ss4.png" width="1000">
+</p>
+
+---
+
 # 🚀 Installation
 
 ## Clone Repository
@@ -104,7 +138,7 @@ chmod +x maxmap.sh
 Example:
 
 ```bash
-./maxmap.sh target.com
+./maxmap.sh tesla.com
 ```
 
 ---
@@ -193,14 +227,6 @@ export WORDLIST="/path/to/wordlist.txt"
 - Asset Discovery
 - Endpoint Harvesting
 - Parameter Mining
-
----
-
-# 📸 Screenshots
-
-<p align="center">
-  <img src="maxmap.png" width="500">
-</p>
 
 ---
 
