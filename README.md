@@ -86,7 +86,7 @@ chmod +x maxmap.sh
 
 ## ⚙️ Customisation
 
-You can change the wordlist used by `dirsearch` by exporting a `WORDLIST` variable:
+You can change the wordlist used by `dirsearch` by setting the `WORDLIST` environment variable:
 
 ```bash
 export WORDLIST="/path/to/your/wordlist.txt"
@@ -107,52 +107,20 @@ MIT © [Max](https://github.com/IssanPy)
 
 ```
 
----
-
-### 🧪 Final check
-- The logo is now properly displayed (as `maxap.png`), centered, with a fixed width.
-- Badges are aligned center.
-- Output structure is inside a code block (clean formatting).
-- The quick start uses your actual GitHub URL.
-
-Now **commit** this updated `README.md` to your repository. Your MAXMAP project is ready for the world!
-
-If you want, I can also provide a **ready-to-post LinkedIn announcement** and a **Medium article outline**. Just say the word, and you’ll have everything you need to launch like a pro. 🔥
-```
-
-After completion, all results are inside:
-
-text
-
-```
-maxmap_reports/example.com_20260527_120000/
-```
+4. **Commit the changes** with a message like `Clean README – logo display fix`.
 
 ---
 
-## **📂 Output Structure**
+## 🖼️ Verify the logo file
 
-text
+- Confirm that the uploaded image is named **exactly** `maxmap.png` (case-sensitive).
+- If it's actually `maxmap.PNG` or `maxmap.jpg`, rename it on GitHub: click the file → “Rename” → set the correct name.
+- After committing the README, **hard refresh** the repo page (`Ctrl + Shift + R` on Windows) to see the logo.
 
-```
-maxmap_reports/<domain>_<timestamp>/
-├── all_subdomains.txt
-├── crt_info.json
-├── crt_raw.json
-├── crt_subdomains.txt
-├── subdomains.txt
-├── subdomains_alive_raw.txt
-├── subdomains_alive_hosts.txt
-├── subdomains_alive_urls.txt
-├── naabu_raw.txt
-├── naabu_ports.txt
-├── nmap_full.txt
-├── directory.txt
-├── param.txt
-├── filterparam.txt
-├── jsfiles.txt
-├── jsfiles_uro.txt
-└── https/
-    ├── httpx_results.txt
-    └── 200_ok.txt
+---
+
+Your MAXMAP repository will now look crisp, professional, and showcase your logo immediately.
+If the logo still doesn’t appear, double‑check that the file is a valid PNG image (not corrupted). You can re‑upload it via “Add file” → “Upload files” and replace it.
+
+You’re now ready to share this link with the world – great job, Max! 🚀
 ```
