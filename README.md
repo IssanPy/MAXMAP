@@ -13,51 +13,60 @@
 </p>
 
 <p align="center">
-  <b>Advanced Automated Reconnaissance Framework for Bug Bounty Hunters, Pentesters & Red Teamers</b>
+  <b>Built for the hunters who stay awake when everyone else logs off.</b>
 </p>
 
 ---
 
-# 🩸 Overview
+# Overview
 
-**MAXMAP** is a high-performance automated reconnaissance framework designed for modern offensive security operations.  
-It combines passive intelligence gathering, active enumeration, endpoint discovery, parameter harvesting, JavaScript extraction, port scanning, and HTTP fingerprinting into one powerful reconnaissance pipeline.
+**MAXMAP** is a high-performance automated reconnaissance framework built for modern offensive security operations.
 
-MAXMAP focuses on:
-- ⚡ Speed
-- 🧠 Clean reconnaissance workflows
-- 📡 Attack surface discovery
-- 🧹 Data normalization
-- 🔥 Scalable recon automation
+No bloated workflow.  
+No messy recon output.  
+No wasting hours chaining random tools together manually.
+
+MAXMAP takes a target and turns it into structured reconnaissance data ready for real-world bug bounty hunting, attack surface analysis, and deep web enumeration.
+
+It combines:
+- passive intelligence gathering
+- active host discovery
+- endpoint harvesting
+- JavaScript extraction
+- service enumeration
+- parameter mining
+- clean deduplication
+
+Everything chained into one streamlined recon pipeline.
 
 Built for:
-- Bug bounty hunters
-- Penetration testers
-- Red team operators
-- Security researchers
-- Web application hunters
+- bug bounty hunters
+- pentesters
+- red teamers
+- security researchers
+- late night recon addicts
 
 ---
 
-# ⚔️ Core Features
+# Features
 
-- 🔎 Passive subdomain enumeration
-- 🌐 Certificate Transparency scraping (`crt.sh`)
-- 🟢 Live host probing with `httpx`
-- 🔌 Port scanning using `naabu`
-- 🛰️ Deep service enumeration with `nmap`
-- 📁 Directory brute-forcing with `dirsearch`
-- 📊 Historical parameter harvesting (`gau`)
-- 📜 JavaScript file extraction
-- 🧹 URL & hostname normalization
-- ⚡ Auto dependency installation
-- 📂 Organized timestamped reporting
-- 📈 Real-time progress tracking
-- ⏱️ Timeout protection & stable execution
+- Passive subdomain enumeration
+- Certificate Transparency scraping (`crt.sh`)
+- Live host probing with `httpx`
+- Port scanning using `naabu`
+- Service fingerprinting with `nmap`
+- Directory brute-forcing with `dirsearch`
+- Historical parameter harvesting (`gau`)
+- JavaScript extraction & filtering
+- URL & hostname normalization
+- Auto dependency installation
+- Organized timestamped reporting
+- Real-time progress tracking
+- Timeout protection & stable execution
 
 ---
 
-# 🧠 Recon Pipeline
+# Recon Pipeline
 
 ```text
 Subfinder
@@ -83,9 +92,9 @@ Structured Recon Reports
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
-## 🔥 Framework Banner
+## Framework Banner
 
 <p align="center">
   <img src="ss1.png" width="1000">
@@ -93,7 +102,7 @@ Structured Recon Reports
 
 ---
 
-## 🌐 Reconnaissance Execution
+## Reconnaissance Execution
 
 <p align="center">
   <img src="ss2.png" width="1000">
@@ -101,7 +110,7 @@ Structured Recon Reports
 
 ---
 
-## 📊 Live Enumeration & Scanning
+## Live Enumeration & Scanning
 
 <p align="center">
   <img src="ss3.png" width="1000">
@@ -109,7 +118,7 @@ Structured Recon Reports
 
 ---
 
-## ⚡ Final Recon Results
+## Final Recon Results
 
 <p align="center">
   <img src="ss4.png" width="1000">
@@ -117,7 +126,7 @@ Structured Recon Reports
 
 ---
 
-# 🚀 Installation
+# Installation
 
 ## Clone Repository
 
@@ -129,7 +138,7 @@ chmod +x maxmap.sh
 
 ---
 
-# ⚡ Usage
+# Usage
 
 ```bash
 ./maxmap.sh example.com
@@ -143,7 +152,7 @@ Example:
 
 ---
 
-# 📂 Output Structure
+# Output Structure
 
 ```text
 maxmap_reports/<domain>_<timestamp>/
@@ -170,7 +179,7 @@ maxmap_reports/<domain>_<timestamp>/
 
 ---
 
-# 🛠️ Dependencies
+# Dependencies
 
 MAXMAP automatically installs missing dependencies.
 
@@ -194,7 +203,7 @@ MAXMAP automatically installs missing dependencies.
 
 ---
 
-# ⚙️ Custom Wordlists
+# Custom Wordlists
 
 You can specify your own directory brute-force wordlist:
 
@@ -205,7 +214,7 @@ export WORDLIST="/path/to/wordlist.txt"
 
 ---
 
-# 🔥 Technologies Used
+# Technologies Used
 
 - Bash
 - ProjectDiscovery Toolchain
@@ -217,7 +226,7 @@ export WORDLIST="/path/to/wordlist.txt"
 
 ---
 
-# 🛡️ Use Cases
+# Use Cases
 
 - Bug Bounty Reconnaissance
 - Attack Surface Mapping
@@ -230,18 +239,18 @@ export WORDLIST="/path/to/wordlist.txt"
 
 ---
 
-# ⚠️ Disclaimer
+# Disclaimer
 
-This tool is created strictly for:
-- Educational purposes
-- Authorized security testing
-- Legal reconnaissance activities
+This project is created strictly for:
+- educational purposes
+- authorized security testing
+- legal reconnaissance activities
 
-The developer is not responsible for any misuse or illegal activity performed using this framework.
+The developer is not responsible for misuse or illegal activity performed using this framework.
 
 ---
 
-# 🤝 Contributing
+# Contributing
 
 Pull requests, improvements, and feature suggestions are welcome.
 
@@ -253,13 +262,13 @@ If you'd like to improve MAXMAP:
 
 ---
 
-# 📜 License
+# License
 
 MIT License © Max
 
 ---
 
-# 🩸 Developer
+# Developer
 
 <p align="center">
   <b>MAX — 2026 Edition</b><br>
