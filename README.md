@@ -3,91 +3,241 @@
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0-red?style=for-the-badge">
   <img src="https://img.shields.io/badge/platform-Kali%20Linux-black?style=for-the-badge">
-  <img src="https://img.shields.io/badge/bash-framework-darkred?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/IssanPy/MAXMAP?style=for-the-badge">
-  <img src="https://img.shields.io/badge/license-MIT-darkred?style=for-the-badge">
+  <img src="https://img.shields.io/badge/language-Bash-darkred?style=for-the-badge">
+  <img src="https://img.shields.io/badge/status-Production%20Ready-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/recon-Offensive%20Security-darkred?style=for-the-badge">
 </p>
 
 <p align="center">
-  <img src="maxmap.png" width="320" alt="MAXMAP Logo">
+  <img src="maxmap.png" width="340" alt="MAXMAP">
 </p>
 
 <p align="center">
-  <b>Built for the hunters who stay awake when everyone else logs off.</b>
+  <b>Industrial-grade reconnaissance automation for modern attack surface discovery.</b>
 </p>
 
 ---
 
-# Overview
+# MAXMAP
 
-**MAXMAP** is a high-performance automated reconnaissance framework built for modern offensive security operations.
+MAXMAP is a high-performance reconnaissance framework engineered for:
 
-No bloated workflow.  
-No messy recon output.  
-No wasting hours chaining random tools together manually.
+* bug bounty hunters
+* red team operators
+* pentesters
+* OSINT researchers
+* offensive security workflows
 
-MAXMAP takes a target and turns it into structured reconnaissance data ready for real-world bug bounty hunting, attack surface analysis, and deep web enumeration.
+The framework automates the complete early-stage recon pipeline and transforms raw target data into structured intelligence ready for enumeration, fuzzing, exploitation, and attack surface analysis.
 
-It combines:
-- passive intelligence gathering
-- active host discovery
-- endpoint harvesting
-- JavaScript extraction
-- service enumeration
-- parameter mining
-- clean deduplication
+No bloated setup.
+No fragmented tooling.
+No manually chaining recon utilities for hours.
 
-Everything chained into one streamlined recon pipeline.
-
-Built for:
-- bug bounty hunters
-- pentesters
-- red teamers
-- security researchers
-- late night recon addicts
+Just one command.
+One target.
+Full reconnaissance pipeline.
 
 ---
 
-# Features
+# Why MAXMAP Exists
 
-- Passive subdomain enumeration
-- Certificate Transparency scraping (`crt.sh`)
-- Live host probing with `httpx`
-- Port scanning using `naabu`
-- Service fingerprinting with `nmap`
-- Directory brute-forcing with `dirsearch`
-- Historical parameter harvesting (`gau`)
-- JavaScript extraction & filtering
-- URL & hostname normalization
-- Auto dependency installation
-- Organized timestamped reporting
-- Real-time progress tracking
-- Timeout protection & stable execution
+Modern reconnaissance is noisy.
+
+Hunters waste time:
+
+* switching between tools
+* cleaning duplicate output
+* fixing broken pipelines
+* organizing recon data manually
+* dealing with unstable scripts
+
+MAXMAP solves that problem.
+
+It combines industry-standard reconnaissance tooling into one stable offensive pipeline with:
+
+* automated dependency management
+* structured reporting
+* intelligent filtering
+* live host discovery
+* endpoint harvesting
+* JavaScript intelligence extraction
+* parameter mining
+* response analysis
+
+Designed for speed.
+Built for long recon sessions.
+Optimized for real-world offensive operations.
 
 ---
 
 # Recon Pipeline
 
 ```text
-Subfinder
-    ↓
-crt.sh Enumeration
-    ↓
+Passive Enumeration
+        ↓
+Certificate Transparency Intelligence
+        ↓
+DNS Resolution
+        ↓
 Live Host Detection
-    ↓
+        ↓
 Port Discovery
-    ↓
-Service Enumeration
-    ↓
-Directory Bruteforce
-    ↓
-Parameter Harvesting
-    ↓
-JavaScript Extraction
-    ↓
-Deduplication & Filtering
-    ↓
+        ↓
+Directory Enumeration
+        ↓
+Historical URL Harvesting
+        ↓
+JavaScript Intelligence Extraction
+        ↓
+Parameter Mining
+        ↓
+HTTP Response Analysis
+        ↓
 Structured Recon Reports
+```
+
+---
+
+# Core Features
+
+## Passive Subdomain Enumeration
+
+Combines:
+
+* Subfinder
+* crt.sh intelligence scraping
+
+to maximize subdomain discovery coverage.
+
+---
+
+## DNS Resolution Engine
+
+Uses:
+
+* PureDNS
+* High-performance resolver lists
+
+for clean and reliable DNS validation.
+
+---
+
+## Live Host Intelligence
+
+HTTP probing powered by:
+
+* Httpx
+
+Automatically identifies:
+
+* alive domains
+* active web services
+* reachable attack surfaces
+
+---
+
+## Port Discovery
+
+Fast TCP port scanning using:
+
+* Naabu
+
+Optimized for:
+
+* high-speed reconnaissance
+* low interruption scanning
+
+---
+
+## Endpoint Harvesting
+
+Historical URL collection using:
+
+* GAU
+
+Finds:
+
+* archived endpoints
+* hidden parameters
+* forgotten routes
+* historical attack surfaces
+
+---
+
+## JavaScript Intelligence Extraction
+
+Automatically extracts:
+
+* JavaScript endpoints
+* bundled JS files
+* optimized assets
+* frontend intelligence
+
+Perfect for:
+
+* secret hunting
+* API discovery
+* hidden endpoint enumeration
+
+---
+
+## Parameter Mining
+
+Filters and extracts:
+
+* GET parameters
+* dynamic endpoints
+* injectable-looking URLs
+
+Useful for:
+
+* XSS
+* IDOR
+* SQLi
+* SSRF
+* Open Redirect testing
+
+---
+
+## Directory Bruteforcing
+
+Integrated:
+
+* Dirsearch automation
+
+for rapid content discovery on live targets.
+
+---
+
+## HTTP Response Classification
+
+Automatically categorizes:
+
+* 200 responses
+* redirects
+* forbidden endpoints
+* error pages
+
+into organized status-code reports.
+
+---
+
+# Framework Architecture
+
+```text
+MAXMAP
+│
+├── Passive Enumeration
+├── DNS Resolution
+├── HTTP Probing
+├── Port Scanning
+├── Directory Discovery
+├── URL Harvesting
+├── JavaScript Extraction
+├── Parameter Mining
+├── Response Classification
+└── Structured Reporting
 ```
 
 ---
@@ -102,7 +252,7 @@ Structured Recon Reports
 
 ---
 
-## Reconnaissance Execution
+## Recon Pipeline Execution
 
 <p align="center">
   <img src="ss2.png" width="1000">
@@ -110,7 +260,7 @@ Structured Recon Reports
 
 ---
 
-## Live Enumeration & Scanning
+## Enumeration & Discovery
 
 <p align="center">
   <img src="ss3.png" width="1000">
@@ -118,7 +268,7 @@ Structured Recon Reports
 
 ---
 
-## Final Recon Results
+## Final Recon Output
 
 <p align="center">
   <img src="ss4.png" width="1000">
@@ -156,25 +306,25 @@ Example:
 
 ```text
 maxmap_reports/<domain>_<timestamp>/
-├── all_subdomains.txt
-├── crt_info.json
-├── crt_raw.json
-├── crt_subdomains.txt
+│
 ├── subdomains.txt
-├── subdomains_alive_raw.txt
-├── subdomains_alive_hosts.txt
-├── subdomains_alive_urls.txt
-├── naabu_raw.txt
-├── naabu_ports.txt
-├── nmap_full.txt
-├── directory.txt
-├── param.txt
+├── resolved.txt
+├── alive_urls.txt
+├── alive_hosts.txt
+├── ports.txt
+├── all_urls.txt
+├── jsfiles_unique.txt
+├── params_raw.txt
 ├── filterparam.txt
-├── jsfiles.txt
-├── jsfiles_uro.txt
+├── dir_results.txt
+│
 └── https/
-    ├── httpx_results.txt
-    └── 200_ok.txt
+    ├── httpx_full.txt
+    └── status_codes/
+        ├── 200.txt
+        ├── 301.txt
+        ├── 403.txt
+        └── 500.txt
 ```
 
 ---
@@ -183,82 +333,108 @@ maxmap_reports/<domain>_<timestamp>/
 
 MAXMAP automatically installs missing dependencies.
 
-### System Packages
-- `nmap`
-- `jq`
-- `curl`
-- `git`
-- `pip3`
+## System Packages
 
-### Go Tools
-- `subfinder`
-- `httpx`
-- `naabu`
-- `gau`
-- `anew`
-
-### Python Tools
-- `uro`
-- `dirsearch`
+* nmap
+* jq
+* curl
+* git
+* pip3
+* pipx
+* massdns
 
 ---
 
-# Custom Wordlists
+## Go Toolchain
 
-You can specify your own directory brute-force wordlist:
-
-```bash
-export WORDLIST="/path/to/wordlist.txt"
-./maxmap.sh example.com
-```
+* subfinder
+* httpx
+* naabu
+* gau
+* anew
+* puredns
 
 ---
 
-# Technologies Used
+## Python Utilities
 
-- Bash
-- ProjectDiscovery Toolchain
-- Nmap
-- Dirsearch
-- jq
-- curl
-- Linux Networking Utilities
+* uro
+* dirsearch
+
+---
+
+# Performance Characteristics
+
+* Parallelized reconnaissance
+* Timeout protection
+* Automatic dependency installation
+* Clean output organization
+* Fast DNS resolution
+* Reduced duplicate data
+* Stable execution flow
+* Optimized for long recon sessions
+
+---
+
+# Example Recon Results
+
+Example execution against a live target generated:
+
+* live hosts
+* archived URLs
+* JavaScript assets
+* parameterized endpoints
+* status code intelligence
+* historical routes
+* frontend assets
+* attack surface mapping data
+
+All automatically categorized into structured reports.
 
 ---
 
 # Use Cases
 
-- Bug Bounty Reconnaissance
-- Attack Surface Mapping
-- Web Application Enumeration
-- VAPT Automation
-- Red Team Recon
-- Asset Discovery
-- Endpoint Harvesting
-- Parameter Mining
+* Bug Bounty Reconnaissance
+* Red Team Operations
+* External Attack Surface Mapping
+* VAPT Automation
+* Web Enumeration
+* Endpoint Discovery
+* Asset Intelligence Gathering
+* Parameter Discovery
+* JavaScript Recon
+* Initial Target Profiling
 
 ---
 
-# Disclaimer
+# Legal Disclaimer
 
-This project is created strictly for:
-- educational purposes
-- authorized security testing
-- legal reconnaissance activities
+This framework is intended strictly for:
 
-The developer is not responsible for misuse or illegal activity performed using this framework.
+* authorized security testing
+* educational research
+* legal reconnaissance operations
+
+Unauthorized use against systems you do not own or have permission to test may violate laws and regulations.
+
+The developer assumes no liability for misuse.
 
 ---
 
 # Contributing
 
-Pull requests, improvements, and feature suggestions are welcome.
+Pull requests, improvements, and offensive feature ideas are welcome.
 
-If you'd like to improve MAXMAP:
+To contribute:
+
+```bash
 1. Fork the repository
-2. Create your feature branch
+2. Create a feature branch
 3. Commit changes
-4. Open a pull request
+4. Push updates
+5. Open a pull request
+```
 
 ---
 
@@ -271,6 +447,10 @@ MIT License © Max
 # Developer
 
 <p align="center">
-  <b>MAX — 2026 Edition</b><br>
-  Offensive Security • Recon Automation • Cyber Operations
+  <b>MAX • 2026 Edition</b><br>
+  Offensive Security • Recon Automation • Attack Surface Intelligence
+</p>
+
+<p align="center">
+  <i>"The quieter the recon, the louder the impact."</i>
 </p>
