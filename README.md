@@ -1,4 +1,4 @@
-# MAXMAP — Automated Reconnaissance Pipeline
+# MAXMAP : Automated Reconnaissance Pipeline
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0-red?style=for-the-badge">
@@ -13,14 +13,14 @@
 </p>
 
 <p align="center">
-  <b>Industrial-grade reconnaissance automation for modern attack surface discovery.</b>
+  <b>Industrial grade reconnaissance automation for modern attack surface discovery.</b>
 </p>
 
 ---
 
 # MAXMAP
 
-MAXMAP is a high-performance reconnaissance framework engineered for:
+MAXMAP is a high performance reconnaissance framework engineered for:
 
 * bug bounty hunters
 * red team operators
@@ -28,7 +28,7 @@ MAXMAP is a high-performance reconnaissance framework engineered for:
 * OSINT researchers
 * offensive security workflows
 
-The framework automates the complete early-stage recon pipeline and transforms raw target data into structured intelligence ready for enumeration, fuzzing, exploitation, and attack surface analysis.
+The framework automates the complete early stage recon pipeline and transforms raw target data into structured intelligence ready for enumeration, fuzzing, exploitation, and attack surface analysis.
 
 No bloated setup.
 No fragmented tooling.
@@ -54,7 +54,7 @@ Hunters waste time:
 
 MAXMAP solves that problem.
 
-It combines industry-standard reconnaissance tooling into one stable offensive pipeline with:
+It combines industry standard reconnaissance tooling into one stable offensive pipeline with:
 
 * automated dependency management
 * structured reporting
@@ -67,7 +67,7 @@ It combines industry-standard reconnaissance tooling into one stable offensive p
 
 Designed for speed.
 Built for long recon sessions.
-Optimized for real-world offensive operations.
+Optimized for real world offensive operations.
 
 ---
 
@@ -117,7 +117,7 @@ to maximize subdomain discovery coverage.
 Uses:
 
 * PureDNS
-* High-performance resolver lists
+* High performance resolver lists
 
 for clean and reliable DNS validation.
 
@@ -145,7 +145,7 @@ Fast TCP port scanning using:
 
 Optimized for:
 
-* high-speed reconnaissance
+* high speed reconnaissance
 * low interruption scanning
 
 ---
